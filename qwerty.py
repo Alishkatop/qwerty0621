@@ -279,7 +279,7 @@ cal=Calculator()
 class B(Calculator):
     pass
 
-g = B()
+a = B()
 
 def Input():
     a=int(input("Введите первую цифру: "))
@@ -294,22 +294,22 @@ if znak in ["+","-","*","/","**",]:
     if znak=="+":
         cal = input("Вы готовы заплатить 10$ ?: ")
     if cal == "да":
-        print("result: ",g.plus(num1,num2))
+        print("result: ",a.plus(num1,num2))
     if znak == '-':
         cal = input("Вы готовы заплатить 10$ ?: ")
     if cal == "да":
-        print("result: ",g.minus(num1,num2))
+        print("result: ",a.minus(num1,num2))
     if znak == '*':
         cal = input("Вы готовы заплатить 10$ ?: ")
     if cal == "да":
-        print("result: ",g.myltiply(num1,num2))
+        print("result: ",a.myltiply(num1,num2))
     if  znak == '/':
         cal = input("Вы готовы заплатить 10$ ?: ")
     if cal == "да":
-        print("result: ",g.share(num1,num2))
+        print("result: ",a.share(num1,num2))
     if znak == '**':
         cal = input("Вы готовы заплатить 10$ ?: ")
     if cal == "да":
-        print("result: ",g.cube(num1,num2))
+        print("result: ",a.cube(num1,num2))
     
       
